@@ -1,0 +1,95 @@
+
+.heading{
+    padding-left: 600px;
+    padding-top: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: rgb(142, 84, 84);
+    }
+    
+    .bg{
+    background-size: cover;
+    width: 1080px;
+    height: 740px;
+    background-repeat: no-repeat;
+    }
+    
+    .searchbox{
+      margin-top: 200px;
+      margin-left: 500px;
+      width: 500px;
+    }
+    
+    .box{
+      width: 1000px;
+      height: 345px;
+      background-color: rgba(236, 240, 240, 0);
+      margin-left: -195px;
+      margin-top: 8px;
+    }
+    
+    
+    .current{
+      padding-left: 85px;
+      padding-top: 100px;
+    
+    }
+    .temp{
+      padding-left: 350px;
+    margin-top: -120px
+    }
+    
+    .wind{
+      padding-left: 600px;
+      margin-top: -100px 
+    }
+    
+    .humidity{
+      padding-left: 850px;
+      margin-top: -100px 
+    }
+    
+
+    .location{
+      padding-left: 20px;
+    width: 30px;
+    }
+    
+    @media(max-width: 400px){
+    
+    .bg{
+      width: 414px;
+      height: 1200px;
+    }
+    
+    
+    .box{
+      margin-left: -250px;
+      margin-top: -30px;
+    
+    }
+    
+    .searchbox{
+      margin-left: 80px;
+      margin-top: 350px;
+    }
+    
+    .heading{
+      padding-left: 250px;
+    }
+    .current{
+      padding-left:200px ;
+    }
+    
+    .temp{
+    padding-left:-40px;
+    }
+    
+    .wind{
+      padding-left: -40px;
+    }
+    .humidity{
+    padding-left: -40px;
+    }
+    
+    }
